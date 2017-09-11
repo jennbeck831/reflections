@@ -15,3 +15,12 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 	Maybe I want a different site for mobile.  I could use a separate branch to experiment with adding mobile features without affecting my master branch.  
+
+How do the diagrams help you visualize the branch structure?
+
+	Making a diagram shows me exactly which commits are in each branch and what order they were created.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Code that was introduced or deleted in one branch is inserted or deleted in the other branch.  We represent it as the child of both 2 different commits to show that it inherited traits from both.
+
