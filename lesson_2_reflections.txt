@@ -8,3 +8,7 @@ How is the staging area different from the working directory and the repository?
 
 	It sits in between the working directory and the repository, like a waiting room for files that need to be committed.  I can put all the files that I've made related changes in into the staging area and commit them together.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Be sure the files I changed for each feature are staged together before making the commit.
+
