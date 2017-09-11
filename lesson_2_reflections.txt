@@ -12,3 +12,6 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	Be sure the files I changed for each feature are staged together before making the commit.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Maybe I want a different site for mobile.  I could use a separate branch to experiment with adding mobile features without affecting my master branch.  
