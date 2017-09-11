@@ -24,3 +24,13 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	Code that was introduced or deleted in one branch is inserted or deleted in the other branch.  We represent it as the child of both 2 different commits to show that it inherited traits from both.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging: 
+		pros: easier to do even if I don't know what was added
+		cons: there may be a conflict, I may not know what new content was added
+
+	Manual merging:
+		pros: I choose what get's merged 
+		cons: it's more work for me
+
