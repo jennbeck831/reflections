@@ -17,3 +17,15 @@ When would you want to use a remote repository rather than keeping all your work
  What is the benefit of having a copy of the last known state of the remote stored locally?
 
  	I can easily tell how long it has been since I have synced my local repository with the remote on on GitHub.  I can also compare my latest local version to the last known state of the remote one by running git diff, to see what changes I have made since I last synced.
+
+ How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ 	I could edit files on the server.  However, if 2 of us (or more) are editing the same file at the same time, what changes would be saved?  We might lose information.  We would have to make sure we're not both editing the same file at the same time or rename the files temporarily then manually merge changes.  That would be a lot of work!  
+
+ 	However, if we are only editing something small and don't want to bother with learning how to use git or github (like my 11-year-old twins working on their small website), it might be easier to edit on the server and just be sure we're not editing the same file simultaneously.
+
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+ 	When collaborating with others who are also modifying the master code, it's a good idea to make changes in a separate branch.  Otherwise there would often be conflicts when pushing  files from my computer to GitHub.  In addition, it would be harder to track down errors in the coe.  
+
+ 	When working on a project where collaborators won't often be changing the same files as one another, making changes on the master branch may be easier than making changes in a separate branch.
