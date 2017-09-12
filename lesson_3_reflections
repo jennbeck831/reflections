@@ -6,4 +6,12 @@ When would you want to use a remote repository rather than keeping all your work
 
  	I may not want all of someone else's changes locally on my computer, especially if I'm working on something specific.
 
-  
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+ 	Fork: this connects to a someone else's repository and lets me add to or change their work for myself without affecting their repository.  Use this if I don't want to or don't have permission to change their repository.
+
+ 	Clone: makes a copy of a repository.  This does not link back to their repository or GitHub at all.  Use this when I am downloading something for personal use on my computer and will not be sharing my work.
+
+ 	Branches: these are within a single repository, whether locally or on GitHub.  This allows me to experiment with different code and try it out without affecting the master branch or anyone else's work (if collaborating).  It also allows me to merge my new changes with another branch once I've worked out the bugs and decide I like it.
+
+ 
