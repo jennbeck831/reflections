@@ -14,4 +14,6 @@ When would you want to use a remote repository rather than keeping all your work
 
  	Branches: these are within a single repository, whether locally or on GitHub.  This allows me to experiment with different code and try it out without affecting the master branch or anyone else's work (if collaborating).  It also allows me to merge my new changes with another branch once I've worked out the bugs and decide I like it.
 
- 
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ 	I can easily tell how long it has been since I have synced my local repository with the remote on on GitHub.  I can also compare my latest local version to the last known state of the remote one by running git diff, to see what changes I have made since I last synced.
